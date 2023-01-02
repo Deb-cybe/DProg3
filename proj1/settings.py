@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-^_)cm_g!im)hgr649npl35x_#m$qq_xek^)%f@n879m2#xzo=d
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web-production-3640.up.railway.app', '127.0.0.1']
 
 
 # Application definition
